@@ -4,6 +4,10 @@
   "description": "A theme extension for VS Code inspired by the Jetbrains Darcula theme",
   "version": "0.0.1",
   "publisher": "gwardwell",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gwardwell/darcula-greg"
+  },
   "engines": {
     "vscode": "^1.46.0"
   },

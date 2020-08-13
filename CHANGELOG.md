@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/gwardwell/darcula-greg/compare/v1.1.0...v1.1.1) (2020-08-13)
+
+
+### Bug Fixes
+
+* release order of execution ([cc5e1dc](https://github.com/gwardwell/darcula-greg/commit/cc5e1dc1067f22edb1eaf4a35551c5d10ba91833))
+
 # [1.1.0](https://github.com/gwardwell/darcula-greg/compare/v1.0.0...v1.1.0) (2020-08-13)
 
 

@@ -2,7 +2,7 @@
   "name": "darcula-greg",
   "displayName": "Darcula Greg",
   "description": "A theme extension for VS Code inspired by the Jetbrains Darcula theme",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "publisher": "gwardwell",
   "repository": {
     "type": "git",
@@ -22,5 +22,11 @@
         "path": "./themes/Darcula Greg-color-theme.json"
       }
     ]
+  },
+  "scripts": {
+    "semantic-release": "npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git semantic-release",
+    "vsce:package": "npx vsce package",
+    "vsce:publish": "npx vsce publish",
+    "vsce:release": "npm run vsce:package && npm run vsce:publish"
   }
 }

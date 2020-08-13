@@ -1,3 +1,10 @@
+# [1.0.0-beta.2](https://github.com/gwardwell/darcula-greg/compare/v1.0.0-beta.1...v1.0.0-beta.2) (2020-08-13)
+
+
+### Features
+
+* expand colors to simplify UI ([674148d](https://github.com/gwardwell/darcula-greg/commit/674148d45f3d76233857107f9304ab6e0f8e1131))
+
 # 1.0.0 (2020-08-13)
 
 

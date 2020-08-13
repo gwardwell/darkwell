@@ -5,27 +5,26 @@ on:
       - main
 jobs:
   release:
-    name: Semantic Release
-    runs-on: ubuntu-18.04
+    name: Release
+    runs-on: ubuntu-latest
     steps:
-      - name: Checkout
+      - name: Checkout for Semantic Release
         uses: actions/checkout@v1
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 12
-      - name: Release
+      - name: Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git semantic-release
-  publish:
-    name: VSCE Publish
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - run: npm install
-      - uses: lannonbr/vsce-action@master
+      - name: "Checkout for VSCE"
+        uses: actions/checkout@v2
+      - name: Install Dependencies
+        run: npm install
+      - name: VSCE Publish
+        uses: lannonbr/vsce-action@master
         with:
           args: "publish -p $VSCE_TOKEN"
         env:

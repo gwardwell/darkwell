@@ -1,3 +1,10 @@
+## [1.1.3](https://github.com/gwardwell/darcula-greg/compare/v1.1.2...v1.1.3) (2020-08-13)
+
+
+### Bug Fixes
+
+* update the package.json version ([3c7f7b4](https://github.com/gwardwell/darcula-greg/commit/3c7f7b4670e6239b22860140a681b01e45fe4ed5))
+
 ## [1.1.2](https://github.com/gwardwell/darcula-greg/compare/v1.1.1...v1.1.2) (2020-08-13)
 
 

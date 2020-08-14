@@ -18,14 +18,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git semantic-release
-      - name: "Checkout for VSCE"
-        uses: actions/checkout@v2
-      - name: Install Dependencies
-        run: npm install
-      - name: VSCE Publish
-        uses: lannonbr/vsce-action@master
-        with:
-          args: "publish -p $VSCE_TOKEN"
-        env:
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
+        run: npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git -p semantic-release-vsce semantic-release

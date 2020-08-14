@@ -22,6 +22,7 @@ module.exports = {
         npmPublish: false,
       },
     ],
+    'semantic-release-vsce',
     [
       '@semantic-release/git',
       {

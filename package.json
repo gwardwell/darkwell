@@ -24,7 +24,7 @@
     ]
   },
   "scripts": {
-    "semantic-release": "npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git semantic-release",
+    "semantic-release": "npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git -p semantic-release-vsce semantic-release",
     "vsce:package": "npx vsce package",
     "vsce:publish": "npx vsce publish",
     "vsce:release": "npm run vsce:package && npm run vsce:publish"

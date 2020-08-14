@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/gwardwell/darcula-greg/compare/v1.1.3...v1.1.4) (2020-08-14)
+
+
+### Bug Fixes
+
+* publish to VS Marketplace via GitHub Actions ([2800945](https://github.com/gwardwell/darcula-greg/commit/2800945a09199aab45a305821e410b924a69e4da))
+
 ## [1.1.3](https://github.com/gwardwell/darcula-greg/compare/v1.1.2...v1.1.3) (2020-08-13)
 
 

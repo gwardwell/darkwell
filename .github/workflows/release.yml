@@ -19,5 +19,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
           VSCE_TOKEN: ${{ secrets.VSCE_TOKEN }}
-          SOME_TOKEN: "FOOBARBAZ"
-        run: npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git semantic-release
+        run: npm run semantic-release

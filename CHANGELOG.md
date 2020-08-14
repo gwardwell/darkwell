@@ -1,3 +1,11 @@
+## [1.1.5](https://github.com/gwardwell/darcula-greg/compare/v1.1.4...v1.1.5) (2020-08-14)
+
+
+### Bug Fixes
+
+* fix malformed release.yml file ([39fe165](https://github.com/gwardwell/darcula-greg/commit/39fe165db1b85ed18a3d053d571aee1dc383a7cb))
+* test version number in postversion ([ede1a08](https://github.com/gwardwell/darcula-greg/commit/ede1a08b7d3950ba46bfb05f32c8c1d1b8404ad1))
+
 ## [1.1.4](https://github.com/gwardwell/darcula-greg/compare/v1.1.3...v1.1.4) (2020-08-14)
 
 

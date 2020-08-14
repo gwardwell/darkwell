@@ -28,6 +28,6 @@
     "vsce:package": "npx vsce package",
     "vsce:publish": "npx vsce publish",
     "vsce:release": "npm run vsce:package && npm run vsce:publish",
-    "postversion": "echo \"Package version number is ${npm_package_version} in postversion script\""
+    "postversion": "echo \"Package version number is ${npm_package_version} in postversion script\" && echo $SOME_TOKEN"
   }
 }

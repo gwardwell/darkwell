@@ -1,3 +1,11 @@
+## [1.1.6](https://github.com/gwardwell/darcula-greg/compare/v1.1.5...v1.1.6) (2020-08-14)
+
+
+### Bug Fixes
+
+* include version ([0135b81](https://github.com/gwardwell/darcula-greg/commit/0135b812bb5484c5aac12507dbaa38847ee7c0a8))
+* try to vsce publish ([1a5fc06](https://github.com/gwardwell/darcula-greg/commit/1a5fc06001fa7e0525c3e4fe3339998613f9c57b))
+
 ## [1.1.5](https://github.com/gwardwell/darcula-greg/compare/v1.1.4...v1.1.5) (2020-08-14)
 
 

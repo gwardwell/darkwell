@@ -2,7 +2,7 @@
   "name": "darcula-greg",
   "displayName": "Darcula Greg",
   "description": "A theme extension for VS Code inspired by the Jetbrains Darcula theme",
-  "version": "1.1.4",
+  "version": "1.1.6",
   "publisher": "gwardwell",
   "repository": {
     "type": "git",

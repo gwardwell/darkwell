@@ -1,4 +1,5 @@
 module.exports = {
+  dryRun: true,
   branches: [
     { name: 'main' },
     {
@@ -22,7 +23,6 @@ module.exports = {
         npmPublish: false,
       },
     ],
-    'semantic-release-vsce',
     [
       '@semantic-release/git',
       {

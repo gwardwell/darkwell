@@ -24,9 +24,10 @@
     ]
   },
   "scripts": {
-    "semantic-release": "npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git -p semantic-release-vsce semantic-release",
+    "semantic-release": "npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git semantic-release",
     "vsce:package": "npx vsce package",
     "vsce:publish": "npx vsce publish",
-    "vsce:release": "npm run vsce:package && npm run vsce:publish"
+    "vsce:release": "npm run vsce:package && npm run vsce:publish",
+    "postversion": "echo \"Package version number is ${npm_package_version} in postversion script\""
   }
 }

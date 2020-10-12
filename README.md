@@ -8,7 +8,7 @@ A dark theme extension for [Visual Studio Code](https://code.visualstudio.com/) 
 
 ## Like this theme? Please consider donating!
 
-[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W82EJJO)
+[![ko-fi](https://cdn.ko-fi.com/cdn/kofi3.png?v=2)](https://ko-fi.com/W7W82EJJO)
 
 ## Screenshot
 

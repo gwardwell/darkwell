@@ -2,7 +2,7 @@
   "name": "darkwell",
   "displayName": "Darkwell",
   "description": "A dark theme extension for VS Code inspired by the Jetbrains Darcula theme",
-  "version": "1.1.6",
+  "version": "1.2.0",
   "publisher": "gwardwell",
   "repository": {
     "type": "git",

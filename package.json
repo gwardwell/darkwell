@@ -1,12 +1,12 @@
 {
-  "name": "darcula-greg",
-  "displayName": "Darcula Greg",
-  "description": "A theme extension for VS Code inspired by the Jetbrains Darcula theme",
+  "name": "darkwell",
+  "displayName": "Darkwell",
+  "description": "A dark theme extension for VS Code inspired by the Jetbrains Darcula theme",
   "version": "1.1.6",
   "publisher": "gwardwell",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gwardwell/darcula-greg"
+    "url": "https://github.com/gwardwell/darkwell"
   },
   "engines": {
     "vscode": "^1.46.0"
@@ -17,9 +17,9 @@
   "contributes": {
     "themes": [
       {
-        "label": "Darcula Greg",
+        "label": "Darkwell",
         "uiTheme": "vs-dark",
-        "path": "./themes/Darcula Greg-color-theme.json"
+        "path": "./themes/Darkwell-color-theme.json"
       }
     ]
   },

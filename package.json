@@ -4,6 +4,7 @@
   "description": "A dark theme extension for VS Code inspired by the Jetbrains Darcula theme",
   "version": "1.1.6",
   "publisher": "gwardwell",
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/gwardwell/darkwell"
@@ -25,6 +26,8 @@
   },
   "scripts": {
     "semantic-release": "npx -p semantic-release -p @semantic-release/changelog -p @semantic-release/git semantic-release",
-    "postversion": "npx vsce publish -p $VSCE_TOKEN $npm_package_version"
+    "postversion": "npx vsce publish -p $VSCE_TOKEN $npm_package_version",
+    "package": "node scripts/package.js",
+    "preview-readme": "node scripts/preview-readme.js"
   }
 }
